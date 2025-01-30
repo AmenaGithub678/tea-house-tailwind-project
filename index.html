@@ -10,6 +10,8 @@
 
 <!-- tailwindcss cdn link -->
     <script src="https://cdn.tailwindcss.com"></script>
+<!-- Font awesome icon link add here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
     <title>Tea House Project Of tailwindcss.</title>
 
     <style>
@@ -20,27 +22,52 @@
 </head>
 <body class="font-manrope">
     <!-- header section start here -->
-<header>
-    <div class="flex gap-3.5 items-center justify-center mx-auto max-w-screen-2xl sm:flex md:flex">
-    <div>
-        <h2 class="text-7xl leading-20 font-extrabold text-[#1C1C1C] mt-16 mb-7">It's good <br>
-            tea time at The <br> Tea House</h2>
-        <p class="text-base font-medium text-[#777777] mb-7">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
-        <button class="text-[#FFFFFF] bg-gradient-to-r from-[#FF0000] to-[#FF8938] px-5 py-4 rounded">Explore More</button>
-    </div>
+     <main class="max-w-screen-xl mx-auto">
+   <!-- header section start here -->
+        <header>
+            <div class="flex gap-3.5 items-center justify-center mx-auto md:mx-auto sm:flex md:flex flex-col md:flex-col lg:flex-row ">
+            <div>
+                <h2 class="text-5xl md:text-7xl leading-20 font-extrabold text-[#1C1C1C] mt-16 mb-7">It's good 
+                    <br>
+                    tea time at The 
+                    <br> 
+                    Tea House</h2>
+                <p class="text-base font-medium text-[#777777] mb-7">Tea and Botanical Solutions Supplier Give Optimum <br>Satisfaction To Your Taste Buds.</p>
+                <button class="text-[#FFFFFF] text-lg md:text-xl bg-gradient-to-r from-[#FF8938] to-[#FF0000] px-5 py-4 rounded">Explore More
+                    <i class="fa fa-arrow-right -rotate-45 text-xl" ></i>
+                </button>
+            </div>
+        
+            <div class="relative">
 
-    <div>
-    <img src="images/banner.png" alt="">
-    <button>
-
-    </button>
+           <div > 
+          <img src="images/banner.png" alt="" class="w-full">
+            </div>
+            
+    <div  class=" bg-white shadow-xl absolute top-80 left-44
+    md:top-72 md:left-40 max-w-56 md:lg-w-60 
+    lg:top-80 lg:left-44 lg:max-w-64 rounded-md py-4 px-5 lg:py-5 lg:px-6 md:py-5 md:px-6 flex justify-around items-center" >
+            <!-- card class -->
+ <div>
+    <i class="fa fa-star  text-[#FFC850] text-2xl pt-3 mr-2" ></i>
 </div>
 
-</div>      
+ <div>
+    <h2 class="text-[#1C1C1C] font-extrabold lg:text-2xl md:text-3xl">5.00</h2>
+    <p class="text-[#777777] text-sm md:text-base font-semibold">Trust Pilot Ratings</p>
+</div>
+            </div>
 
-</header>
+        </div>
+        
+        </div>      
+        
+        </header>
 
-    <!-- banner section start here -->
+     </main>
+
+
+
     
 </body>
 </html>
